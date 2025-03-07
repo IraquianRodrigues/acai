@@ -1,62 +1,51 @@
 var MENU = {
     "acai-creme": [
         {
-            "id": "creme-300",
-            "img": "./img/cardapio/creme/300ml.png",
-            "name": "Creme 300ML",
-            "dsc": "Creme de Açaí 300ML",
-            "price": 13.00
+            "id": "acai-250",
+            "img": "./img/cardapio/creme/novo.png",
+            "name": "Açai 250ML",
+            "dsc": "Açai 250ML",
+            "price": 12.00
         },
         {
-            "id": "creme-500",
+            "id": "acai-300",
             "img": "./img/cardapio/creme/500ml.png",
-            "name": "Creme 500ML",
-            "dsc": "Creme de Acaí 500ML",
+            "name": "Açai 300ML",
+            "dsc": "Açai 300ML",
             "price": 15.00
         },
 
         {
-            "id": "creme-700",
+            "id": "acai-400",
             "img": "./img/cardapio/creme/700ml.png",
-            "name": "Creme 700ML",
-            "dsc": "Creme de Açaí 700ML",
+            "name": "Açai 400ML",
+            "dsc": "Açai 400ML",
             "price": 18.00
         },
         
         {
-            "id": "creme-1l",
+            "id": "acai 500ml",
             "img": "./img/cardapio/creme/1L.png",
-            "name": "Creme 1L",
-            "dsc": "Creme de Açaí 1L",
-            "price": 30.00
-        }
-
-    ],
-    "acai-vitamina": [
-        {
-            "id": "vitamina-300",
-            "img": "./img/cardapio/vitamina/vitamina.png",
-            "name": "Vitamina 300ML",
-            "dsc": "Vitamina de Açai 300ML",
-            "price": 8.00
+            "name": "Açai 500ML",
+            "dsc": "Açai 1L",
+            "price": 20.00
         },
 
         {
-            "id": "vitamina-500",
-            "img": "./img/cardapio/vitamina/vitamina.png",
-            "name": "Vitamina 500ML",
-            "dsc": "Vitamina de Açai 500ML",
-            "price": 12.00
+            "id": "acai 700ml",
+            "img": "./img/cardapio/creme/1L.png",
+            "name": "Açai 700ML",
+            "dsc": "Açai 700L",
+            "price": 24.00
         },
 
         {
-            "id": "vitamina-700",
-            "img": "./img/cardapio/vitamina/vitamina.png",
-            "name": "Vitamina 700ML",
-            "dsc": "Vitamina de Açai 700ML",
-            "price": 15.00
+            "id": "acai 1L",
+            "img": "./img/cardapio/creme/1L.png",
+            "name": "Açai 1L",
+            "dsc": "Açai 1L",
+            "price": 33.00
         }
-       
     ],
     "milk-shake": [
         {
@@ -81,6 +70,45 @@ var MENU = {
             "price": 15.00
         }
        
+    ],
+
+    "coberturas": [
+        {
+            "id": "chocolate",
+            "name": "Chocolate",
+            "desc": "cobertura"
+        },
+        {
+            "id": "morango",
+            "name": "Morango",
+            "desc": "cobertura"
+        },     
+        {
+            "id": "leite-condensado",
+            "name": "Leite Condensado",
+            "desc": "cobertura"
+        },
+        {
+            "id": "doce-de-leite",
+            "name": "Doce de Leite",
+            "desc": "cobertura"
+        },
+        {
+            "id": "caramelo",
+            "name": "Caramelo",
+            "desc": "cobertura"
+        },
+        {
+            "id": "maracuja",
+            "name": "Maracujá",
+            "desc": "cobertura"
+        },
+        {
+            "id": "uva",
+            "name": "Uva",
+            "desc": "cobertura"
+        },
+
     ]
 }
 
@@ -88,104 +116,128 @@ var ACRESCIMOS = {
     "acrescimos-comum": [
         {
             "id": "leite-em-po",
-            "name": "Leite em Pó",
-            "price": 2.00
+            "name": "Leite Ninho",
+            "price": 4.00
         },
         {
-            "id": "leite-condensado",
-            "name": "Leite Condensado",
-            "price": 2.00
+            "id": "Chocopower",
+            "name": "Chocopower",
+            "price": 4.00
         },     
         {
-            "id": "morango",
-            "name": "Morango",
-            "price": 2.00
+            "id": "gotas de chocolate",
+            "name": "Gotas de chocolate",
+            "price": 4.00
         },
         {
-            "id": "pacoca",
-            "name": "Paçoca",
-            "price": 2.00
+            "id": "jujuba",
+            "name": "Jujuba",
+            "price": 4.00
         },
         {
-            "id": "kiwi",
-            "name": "Kiwi",
-            "price": 2.00
-        },
-        {
-            "id": "banana",
-            "name": "Banana",
-            "price": 2.00
-        },
-        {
-            "id": "granola",
-            "name": "Granola",
-            "price": 2.00
-        },
-        {
-            "id": "manga",
-            "name": "Manga",
-            "price": 2.00
-        },
-        {
-            "id": "abacaxi",
-            "name": "Abacaxi",
-            "price": 2.00
+            "id": "oreo",
+            "name": "Oreo",
+            "price": 4.00
         },
         
-    ],
-    "acrescimos-especiais": [
         {
-            "id": "bis",
-            "name": "Bis",
-            "price": 3.00
+            "id": "pacoquinha",
+            "name": "Paçoquinha",
+            "price": 4.00
         },
 
         {
-            "id": "nutella",
-            "name": "Nutella",
+            "id": "flocos de arroz",
+            "name": "Flocos de arroz",
             "price": 4.00
         },
+
         {
-            "id": "kit-kat",
-            "name": "Kit Kat",
-            "price": 3.50
-        },
-        {
-            "id": "creme-ninho",
-            "name": "Creme de Ninho",
+            "id": "Ovomaltine",
+            "name": "Ovomaltine",
             "price": 4.00
         },
+        
         {
-            "id": "mouse-maracuja",
-            "name": "Mouse de Maracujá",
+            "id": "baton",
+            "name": "Baton",
             "price": 4.00
         },
-        {
-            "id": "gotas-chocolate",
-            "name": "Gotas de Chocolate",
-            "price": 2.50
+
+          {
+            "id": "disquete",
+            "name": "Disquete",
+            "price": 4.00
         },
+
+        {
+            "id": "kit kat",
+            "name": "Kit kat",
+            "price": 4.00
+        },
+
+        {
+            "id": "castanha",
+            "name": "Castanha",
+            "price": 4.00
+        },
+
+        
+        {
+            "id": "amendoim",
+            "name": "Amendoim",
+            "price": 4.00
+        },
+
+        
+        {
+            "id": "tubetes",
+            "name": "Tubetes",
+            "price": 4.00
+        },
+
+        
         {
             "id": "granulado",
             "name": "Granulado",
-            "price": 2.00
+            "price": 4.00
         },
+        
+
         {
-            "id": "mEm",
-            "name": "M&M's",
-            "price": 3.00
+            "id": "marshmallow",
+            "name": "Marshamallow",
+            "price": 4.00
         },
+        
+
         {
-            "id": "ovomaltine",
-            "name": "Ovomaltine",
-            "price": 2.50
+            "id": "moeda de chocolate",
+            "name": "Moeda de chocolate",
+            "price": 4.00
         },
+
         {
             "id": "chocoball",
             "name": "Chocoball",
-            "price": 2.50
-        }
-    ]
+            "price": 4.00
+        },
+
+        {
+            "id": "bis",
+            "name": "Bis",
+            "price": 4.00
+        },
+
+        {
+            "id": "brownie",
+            "name": "Brownie",
+            "price": 4.00
+        }, 
+        
+    ],
+
+
 }
 
 var MILK_SHAKE = {

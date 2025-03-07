@@ -1,6 +1,6 @@
 const CELULAR_EMPRESA = '84994543066';
 
-const LOJA_ABRE = 16;
+const LOJA_ABRE = 14;
 const LOJA_FECHA  = 22;
 
 // Inicializa  proximoIdCarrinho com valor salvo no navegador ou o valor 1
