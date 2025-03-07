@@ -1,4 +1,4 @@
-const CELULAR_EMPRESA = '553182903387';
+const CELULAR_EMPRESA = '84994543066';
 
 const LOJA_ABRE = 16;
 const LOJA_FECHA  = 22;
@@ -780,7 +780,7 @@ cardapio.metodos = {
 
                     if (!("erro" in dados)) {
 
-                        if (dados.uf == 'MG') {
+                        if (dados.uf == 'RN') {
                             // atualizar os campos com os valores retornados
                             $('#txtEndereco').val(dados.logradouro);
                             $('#txtBairro').val(dados.bairro);
